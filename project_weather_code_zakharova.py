@@ -30,27 +30,27 @@ def clothing_advisor(temperature, is_rainy, is_raining_heavily):
     # Выбор одежды
     if temperature > 20 and temperature < 30:
         if is_rainy:
-            print("🔸 Футболку")
-            print("🔸 Шорты")
-            print("🔸 Дождевик")
+            print("Футболку")
+            print("Шорты")
+            print("Дождевик")
         else:
-            print("🔸 Футболку")
-            print("🔸 Шорты")
+            print("Футболку")
+            print("Шорты")
 
     elif temperature > 0:
         if is_rainy:
             if is_raining_heavily:
-                print("🔸 Пальто")
-                print("🔸 Резиновые сапоги")
-                print("🔸 Зонт")
+                print("Пальто")
+                print("Резиновые сапоги")
+                print("Зонт")
             else:
-                print("🔸 Пальто")
-                print("🔸 Дождевик")
+                print("Пальто")
+                print("Дождевик")
         else:
-            print("🔸 Пальто")
+            print("Пальто")
 
     else:
-        print("🔸 Пуховик")
+        print("Пуховик")
 
 
 # Основная программа
@@ -63,4 +63,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
